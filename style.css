@@ -1,11 +1,25 @@
+@font-face {
+    font-family: Arvo;
+    src: url(Arvo-Regular.ttf);
+}
+body {
+    background-image: url("pexels-mark.jpg");
+    background-size: cover;
+    font-family: Arvo;
+}
+.center {
+    text-align: center;
+}
 #searchContainer {
     margin: 10px;
+    margin-bottom: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     flex-wrap: nowrap;
     background-color: whitesmoke;
     justify-content: center;
     align-items: center;
+    opacity: 0.8;
 }
 #searchContainer > div {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -33,6 +47,8 @@
     margin: 0 auto;
     padding: 20px;
     width: 33%;
+    background-color: whitesmoke;
+    opacity: 0.8;
 }
 #attractionResultContainer {
     display: grid;
@@ -44,6 +60,8 @@
     margin-bottom: 20px;
     padding: 20px;
     width: 33%;
+    background-color: whitesmoke;
+    opacity: 0.8;
 }
 
 img {
