@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header><p>City Travel</p></header>
+    <div id="searchContainer">
+        <div id="searchBar">
+            <form>
+                <input type="text" placeholder="Search.." name="search">
+                <button type="button" onclick="executeSearch()">Go!</button>
+            </form>
+        </div>
+        <div id="checkboxes">
+            <form>
+                <input id="onlyWeather" type="checkbox" name="onlyWeather" value="onlyWeather">
+                <label for="onlyWeather"> Only weather</label><br>
+                <input id="onlyAttractions" type="checkbox" name="onlyAttractions" value="onlyAttractions">
+                <label for="onlyAttractions"> Only attractions</label><br>
+                <input id="filter" type="checkbox" name="filter" value="filter">
+                <label for="filter"> Filter alphabetically</label>
+              </form> 
+        </div>
+    </div>
+    <div id="weatherResultContainer">
+
+    </div>
+    <div id="attractionResultContainer">
+
+    </div>
+  </body>
+</html>

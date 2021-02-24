@@ -1,0 +1,51 @@
+#searchContainer {
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+#searchContainer > div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    padding: 20px;
+}
+#searchBar {
+    background-color: white;
+    position: relative;
+    top: 50%;
+}
+#checkboxes {
+    background-color: white;
+}
+#weatherResultContainer {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#weatherResultContainer > div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    padding: 20px;
+    width: 33%;
+}
+#attractionResultContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+}
+#attractionResultContainer > div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 33%;
+}
+
+img {
+    background-color: grey;
+}
