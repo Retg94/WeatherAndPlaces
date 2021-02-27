@@ -10,6 +10,10 @@ body {
 .center {
     text-align: center;
 }
+#topContainer {
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
 #searchContainer {
     margin: 10px;
     margin-bottom: 50px;
@@ -20,50 +24,82 @@ body {
     justify-content: center;
     align-items: center;
     opacity: 0.8;
+    border-radius: 25px;
 }
 #searchContainer > div {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
     padding: 20px;
+    border-radius: 25px;
 }
 #searchBar {
+    display: flex;
+    align-items: center;
     background-color: white;
-    position: relative;
-    top: 50%;
+    margin: auto;
 }
 #checkboxes {
     background-color: white;
+    margin: auto;
 }
 #weatherResultContainer {
     width: 90%;
     margin: auto;
-    margin-bottom: 50px;
     display: flex;
     align-items: center;
     text-align: center;
+    margin-bottom: 50px;
 }
 #weatherResultContainer > div {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
     width: 33%;
     background-color: whitesmoke;
     opacity: 0.8;
+    border-radius: 25px;
 }
 #attractionResultContainer {
     display: grid;
-    grid-template-columns: auto auto auto auto; 
+    grid-template-columns: 20% 20% 20% 20% 20%; 
 }
 #attractionResultContainer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0 auto;
     margin-bottom: 20px;
     padding: 20px;
-    width: 33%;
+    width: 50%;
     background-color: whitesmoke;
     opacity: 0.8;
+    border-radius: 25px;
 }
-
-img {
+#icon {
+    height: 100px;
+    margin: auto;
+}
+#myInput {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(23, 153, 30, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: whitesmoke;
+    height: 30px;
+    font-size: large;
+    width: auto;
+}
+#myBtn {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: whitesmoke;
+    height: 36px;
+    width: auto;
+    font-size: large;
+}
+#resultIcons {
     background-color: grey;
+    border-radius: 10px;
+    margin: auto;
 }

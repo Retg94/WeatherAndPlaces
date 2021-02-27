@@ -11,23 +11,23 @@
             <a href="https://www.pexels.com/photo/scenic-view-of-mountain-under-cloudy-sky-4620574/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Pexels</a>
         </h3>
     </header>
-    <div id="searchContainer">
-        <div id="searchBar">
-            <form>
-                <input type="text" placeholder="Search.." name="search">
-                <button type="button" onclick="executeSearch()">Go!</button>
-            </form>
-        </div>
-        <div id="checkboxes">
-            <form>
+    <div id="topContainer">
+        <img id="icon" src="SeekPng.com_travel-icon-png_8667057.png" alt="Travel icon">
+        <div id="searchContainer">
+            <div id="searchBar">            
+                <input id="myInput" type="text" placeholder="Search.." name="search"> 
+                <button id="myBtn" type="button" onclick="executeSearch()">Go!</button>        
+            </div>
+            <div id="checkboxes">
                 <input id="onlyWeather" type="checkbox" name="onlyWeather" value="onlyWeather">
                 <label for="onlyWeather"> Only weather</label><br>
                 <input id="onlyAttractions" type="checkbox" name="onlyAttractions" value="onlyAttractions">
                 <label for="onlyAttractions"> Only attractions</label><br>
                 <input id="filter" type="checkbox" name="filter" value="filter">
                 <label for="filter"> Filter alphabetically</label>
-              </form> 
+            </div>
         </div>
+        <img id="icon" src="SeekPng.com_travel-icon-png_8667057.png" alt="Travel icon">
     </div>
     <div id="weatherResultContainer">
 
