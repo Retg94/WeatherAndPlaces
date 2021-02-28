@@ -7,33 +7,47 @@
   </head>
   <body>
     <header>
-        <h3 class="center">City Travel, Backgroundphoto by <a href="https://www.pexels.com/@markp?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Mark Plötz </a> from 
-            <a href="https://www.pexels.com/photo/scenic-view-of-mountain-under-cloudy-sky-4620574/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Pexels</a>
-        </h3>
+        <h1 class="center">
+          City Travel
+        </h1>
     </header>
-    <div id="topContainer">
-        <img id="icon" src="SeekPng.com_travel-icon-png_8667057.png" alt="Travel icon">
-        <div id="searchContainer">
-            <div id="searchBar">            
-                <input id="myInput" type="text" placeholder="Search.." name="search"> 
-                <button id="myBtn" type="button" onclick="executeSearch()">Go!</button>        
-            </div>
-            <div id="checkboxes">
-                <input id="onlyWeather" type="checkbox" name="onlyWeather" value="onlyWeather">
-                <label for="onlyWeather"> Only weather</label><br>
-                <input id="onlyAttractions" type="checkbox" name="onlyAttractions" value="onlyAttractions">
-                <label for="onlyAttractions"> Only attractions</label><br>
-                <input id="filter" type="checkbox" name="filter" value="filter">
-                <label for="filter"> Filter alphabetically</label>
-            </div>
-        </div>
-        <img id="icon" src="SeekPng.com_travel-icon-png_8667057.png" alt="Travel icon">
+    <div id="bodyDiv">
+      <div id="topContainer">
+          <img id="icon" src="SeekPng.com_travel-icon-png_8667057.png" alt="Travel icon">
+          <div id="searchContainer">
+              <div id="searchBar">            
+                  <input id="myInput" type="text" placeholder="Search.." name="search"> 
+                  <button id="myBtn" type="button" onclick="executeSearch()"><img src="icons8-search-location-32.png"></button>        
+              </div>
+              <div id="checkboxes">
+                  <input id="onlyWeather" type="checkbox" name="onlyWeather" value="onlyWeather">
+                  <label for="onlyWeather"> Only weather</label><br>
+                  <input id="onlyAttractions" type="checkbox" name="onlyAttractions" value="onlyAttractions">
+                  <label for="onlyAttractions"> Only attractions</label><br>
+                  <input id="filter" type="checkbox" name="filter" value="filter">
+                  <label for="filter"> Filter alphabetically</label>
+              </div>
+          </div>
+          <img id="icon" src="SeekPng.com_travel-icon-png_8667057.png" alt="Travel icon">
+      </div>
+      <div id="weatherResultContainer">
+  
+      </div>
+      <div id="attractionResultContainer">
+  
+      </div>
     </div>
-    <div id="weatherResultContainer">
-
-    </div>
-    <div id="attractionResultContainer">
-
-    </div>
+    <footer class="center">
+      <p>
+        <a target="_blank" href="https://icons8.com/icons/set/search-location">Search Location icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a><br/>
+      </p>
+      <p>
+        Backgroundphoto by <a href="https://www.pexels.com/@markp?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">Mark Plötz </a> from 
+        <a href="https://www.pexels.com/photo/scenic-view-of-mountain-under-cloudy-sky-4620574/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">Pexels</a><br/>
+      </p>
+      <p>
+        <a href="https://www.seekpng.com/ipng/u2t4u2u2u2u2q8q8_travel-icon-png/" target="_blank">Travel Icon Png @seekpng.com</a>
+      </p>
+    </footer>
   </body>
 </html>
